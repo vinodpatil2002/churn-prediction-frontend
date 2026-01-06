@@ -11,8 +11,8 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Customer Churn Intelligence | ML Prediction Platform",
-  description: "Upload customer data and identify churn risk using machine learning. Fast ML inference, batch customer scoring, and explainable predictions.",
-  generator: "v0.app",
+  description:
+    "Upload customer data and identify churn risk using machine learning. Fast ML inference, batch customer scoring, and explainable predictions.",
   icons: {
     icon: [
       {
@@ -31,6 +31,7 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
 }
+
 
 export default function RootLayout({
   children,
