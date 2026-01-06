@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     title: "Customer Churn Intelligence | ML Prediction Platform",
     description:
         "Upload customer data and identify churn risk using machine learning. Fast ML inference, batch customer scoring, and explainable predictions.",
+
     icons: {
-        icon: [
-            {
-                url: "data:,",
-            },
-        ],
+        icon: "/favicon.ico",
+        apple: "/favicon.ico",
     },
+
+    manifest: null, 
 };
 
 export default function RootLayout({
