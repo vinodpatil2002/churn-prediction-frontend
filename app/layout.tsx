@@ -13,23 +13,7 @@ export const metadata: Metadata = {
   title: "Customer Churn Intelligence | ML Prediction Platform",
   description:
     "Upload customer data and identify churn risk using machine learning. Fast ML inference, batch customer scoring, and explainable predictions.",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+
 }
 
 
