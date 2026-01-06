@@ -68,7 +68,7 @@ export async function predictChurn(
     const formData = new FormData();
     formData.append("file", file);
 
-    const response = await fetch("http://localhost:8000/predict/batch", {
+    const response = await fetch("https://churn-prediction-backend-muf1.onrender.com/predict/batch", {
         method: "POST",
         body: formData,
     });
